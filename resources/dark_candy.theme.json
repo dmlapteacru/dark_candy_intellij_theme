@@ -1,0 +1,92 @@
+{
+  "name": "Dark Candy",
+  "dark": true,
+  "author": "",
+  "editorScheme": "/DarkCandy.xml",
+  "ui": {
+    "*" : {
+      "background" : "#333538",
+      "foreground": "#f8f8f2",
+
+      "infoForeground": "#f8f8f2",
+
+      "selectionBackground": "#E6503B",
+      "selectionForeground": "#f8f8f2",
+      "selectionInactiveBackground": "#E6503B",
+      "selectionBackgroundInactive": "#383838",
+
+      "disabledBackground": "#333538",
+      "inactiveBackground": "#333538",
+
+      "disabledForeground": "#ACACAC",
+      "disabledText": "#ACACAC",
+      "inactiveForeground": "#ACACAC",
+
+      "acceleratorForeground": "#E6E6E6",
+      "acceleratorSelectionForeground": "#E6E6E6",
+
+      "errorForeground": "#FA3232",
+
+      "borderColor": "#4B4B4B",
+      "disabledBorderColor": "#484848",
+      "focusColor": "#E6503B",
+      "focusedBorderColor": "#E6503B",
+
+      "separatorColor": "#ACACAC"
+    },
+    "Button": {
+      "default": {
+        "startBackground": "#E6503B",
+        "endBackground": "#E6503B"
+      }
+    },
+    "Borders": {
+      "color": "#4B4B4B",
+      "ContrastBorderColor": "#4B4B4B"
+    },
+    "EditorTabs": {
+      "underlineColor": "#E6503B"
+    },
+    "ToggleButton": {
+      "onForeground": "#E6E6E6",
+      "onBackground": "#208c29",
+      "offForeground": "#E6E6E6",
+      "offBackground": "#af3c2b",
+      "buttonColor":  "#4B4B4B",
+      "borderColor": "#4B4B4B"
+    },
+    "Plugins": {
+      "Tab": {
+        "selectedBackground": "#4B4B4B",
+        "hoverBackground": "#4B4B4B"
+      }
+    }
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "#FFFFFF",
+      "Actions.Red": "#FF3633",
+      "Actions.Yellow": "#FFD333",
+      "Actions.Green": "#2cc939",
+      "Actions.Blue": "#53b9e2",
+      "Actions.GreyInline.Dark": "#FFFFFFFF",
+
+      "Objects.Grey": "#dbdbdb",
+      "Objects.RedStatus": "#FF4340FF",
+      "Objects.Red": "#FF4340FF",
+      "Objects.Green": "#98f131",
+      "Objects.Blue": "#02d8ed",
+
+      "Checkbox.Background.Default.Dark": "#4B4B4B",
+      "Checkbox.Border.Default.Dark": "#ACACAC",
+      "Checkbox.Foreground.Selected.Dark": "#ACACAC",
+      "Checkbox.Focus.Wide.Dark": "#E6503B",
+      "Checkbox.Focus.Thin.Default.Dark": "#E6503B",
+      "Checkbox.Focus.Thin.Selected.Dark": "#E6503B",
+      "Checkbox.Background.Disabled.Dark": "#4B4B4B",
+      "Checkbox.Border.Disabled.Dark": "#ACACAC",
+      "Checkbox.Foreground.Disabled.Dark": "#ACACAC"
+    }
+  }
+}

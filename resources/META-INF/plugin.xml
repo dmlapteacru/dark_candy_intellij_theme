@@ -1,0 +1,43 @@
+<idea-plugin>
+  <id>dark_candy</id>
+  <name>Dark Candy UI Theme</name>
+  <version>1.0</version>
+  <vendor email="lapteacrudumitru@aol.com">Dumitru Lapteacru</vendor>
+
+  <description><![CDATA[
+      Dark Candy UI Theme is a plugin for JetBrains IDE. <br>
+      Originally inspired by the Darcula Theme and it offers: <br>
+      <ul>
+        <li>Beautiful color schemes supporting a majority of languages;</li>
+        <li>Main code color is red (candy);</li>
+        <li>Darker background with red elements.</li>
+      </ul>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <ul>
+        <li>Changed action, checkbox, objects colors</li>
+        <li>Code will be mostly in red colors</li>
+      </ul>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="1fc6ca7c-4d36-4903-a397-997283280234" path="/dark_candy.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
